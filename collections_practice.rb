@@ -52,9 +52,10 @@ end
 
 def add_s(array)
    array.each do |i| 
-     i[] << "s"
      if i[1] 
        i[1]
+     else
+       i[] << "s"
      end
    end
 end
