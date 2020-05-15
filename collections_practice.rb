@@ -51,7 +51,7 @@ end
     end
 
 def add_s(array)
-   array.each do |i| 
+   array.collect do |i| 
      if array[1] == i
        i
      else
