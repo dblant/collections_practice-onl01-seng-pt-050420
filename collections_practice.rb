@@ -55,7 +55,7 @@ def add_s(array)
      if i[1] 
        i[1]
      else
-       i[] << "s"
+       i[] + "s"
      end
    end
 end
