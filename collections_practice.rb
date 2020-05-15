@@ -40,7 +40,7 @@ end
   
   def find_a(array)
  
-    array.find_all([0=]a)
+    array.find_all([0=a])
   end
     
 
