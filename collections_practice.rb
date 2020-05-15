@@ -52,6 +52,6 @@ end
         
         i += 1
       end
-      elephant
+      array.sum
     end
 
