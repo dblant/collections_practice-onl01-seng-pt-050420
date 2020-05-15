@@ -40,7 +40,9 @@ end
   
   def find_a(array)
  
-  return  array.find_all([0 == "a"])
+   array.find_all do |i|
+     i[0] == "a"
+   end
   end
     
 
