@@ -45,4 +45,13 @@ end
    end
   end
     
+    
+    def sum_array(array)
+      i = 0
+      array.each do |n|
+        
+        i += 1
+      end
+      
+    end
 
