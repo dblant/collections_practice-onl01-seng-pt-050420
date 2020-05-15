@@ -18,6 +18,7 @@ end
 
 def swap_elements (array)
   
-  array.index[1] < array.index[2]
+  array[1] < array[2]
+  
 end
 end
