@@ -50,3 +50,10 @@ end
       array.sum
     end
 
+def add_s(array)
+   array.each do |i| 
+     i[<< "s"]
+     if i[1] 
+       return i[1]
+     end
+   end
