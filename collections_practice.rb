@@ -53,7 +53,7 @@ end
 def add_s(array)
    array.each do |i| 
      if array[1] == array[1]
-       array[1]
+       i
      else
        i + "s"
      end
